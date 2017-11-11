@@ -32,7 +32,7 @@ npm start
 Setup authentication with MediusFlow
 ---------------
 1. Login to your MediusFlow instance.
-2. Go to Administration > ClentApplications (https://cloud.mediusflow.com/<tenantId>/#Administration/Medius.Core.Entities.Api.ClientApplication)
+2. Go to Administration > ClentApplications (https://cloud.mediusflow.com/[tenantId]/#Administration/Medius.Core.Entities.Api.ClientApplication)
 3. Add a new application 
 * Name: Name of your application (not important)
 * Authentication Flow: Authorization Code Flow
