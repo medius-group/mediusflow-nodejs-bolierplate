@@ -76,7 +76,7 @@ Strategy.prototype.authenticate = function(req, options) {
   }
 
   if (req.query && req.query.code) {
-
+    
     function loaded(err, ok, state) {
       if (err) { return self.error(err); }
       if (!ok) {
